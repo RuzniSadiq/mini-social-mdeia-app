@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  mini-social-media:
+    platform: "linux/arm64"
+    image: mini-social-media:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=
+      - DB_PORT=
+      - DB_USER=
+      - DB_PASSWORD=
+      - DB_NAME=
+      - JWT_SECRET=
+      - SERVER_HOST=
+      - SERVER_PORT=
+    restart: unless-stopped
