@@ -64,7 +64,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-github-username>/mini-social-media.git
+git clone https://github.com/RuzniSadiq/mini-social-media-app.git
 cd mini-social-media
 ```
 
@@ -74,19 +74,11 @@ cd mini-social-media
 go mod tidy
 ```
 
-### 3. Set up Postgres DB
-Run postgres DB server
+### 3. Set up Database Server
+Run Database server
 
 ### 3. Set Up Environment Variables
-Create a .env file in the root directory with the following keys:
-DB_HOST=
-DB_PORT=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-JWT_SECRET=
-SERVER_HOST=
-SERVER_PORT=
+Create a .env file in the root directory by using the keys in the .env.example file
 
 ### 4. Run Database Migrations
 go run cmd/migrate.go
