@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "5ce5f769-8179-468e-b9bb-e1de58b9ca72",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29502066",
+		"_collection_link": "https://solar-crater-854785.postman.co/workspace/posts~1ea3f126-c18e-4d7b-8874-033aa36e0a94/collection/29502066-5ce5f769-8179-468e-b9bb-e1de58b9ca72?action=share&source=collection_link&creator=29502066"
+	},
+	"item": [
+		{
+			"name": "Delete User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzI2NTI4NzgsInVzZXJfaWQiOjF9.E-N24h3k28hiGkcFbzcUbxeq9TASESiR5-BuyDaURiU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/v1/users/delete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
